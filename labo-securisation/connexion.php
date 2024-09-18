@@ -14,6 +14,11 @@
         <input type="password" id="password" name="password" required>
         <br>
         <button type="submit">Se connecter</button>
+        <?php
+            if(isset($_GET['erreur'])){
+                echo '<p>'.$_GET['erreur'].'</p>';
+            }
+        ?>
     </form>
 </body>
 </html>
