@@ -2,7 +2,7 @@
 
 $servername = "localhost";
     $username = "root"; 
-    $password = "";
+    $password = "cegep";
     $dbname = "mydatabase";
 
 try{

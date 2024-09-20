@@ -26,6 +26,8 @@ SET time_zone = "+00:00";
 --
 -- Structure de la table `bombe`
 --
+CREATE DATABASE mydatabase;
+USE mydatabase;
 
 CREATE TABLE `bombe` (
   `noBombe` int(11) NOT NULL,
